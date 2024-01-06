@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+:root {
+  --clr-light-blue: hsl(223, 100%, 88%);
+  --clr-red: hsl(354, 100%, 66%);
+  --clr-grey: hsl(0, 0%, 59%);
+  --clr-blue: hsl(223, 87%, 63%);
+  --clr-dark-blue: hsl(209, 33%, 12%);
+
+  --fs-900: 3rem;
+  --fs-600: 1.375rem;
+  --fs-500: 1.25rem;
+  --fs-400: 1rem;
+  --fs-200: 0.75rem;
+  --fs-100: 0.625rem;
+
+  --fw-regular: 300;
+  --fw-semi-bold: 500;
+  --fw-bold: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+
+
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  height: 100vh;
+  padding: 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  height: 100vh;
+  max-width: 60rem;
+}
+
+header img {
+  width: 4.5rem;
+}
+
+li img {
+  height: 2rem;
+}
