@@ -91,7 +91,26 @@ body {
 }
 
 header img {
-  width: 4.5rem;
+  width: 5.2rem;
+}
+
+h1 {
+  font-size: var(--fs-900);
+  color: var(--clr-grey);
+  font-weight: var(--fw-regular);
+}
+
+h1 span {
+  font-weight: var(--fw-bold);
+  color: var(--clr-dark-blue);
+}
+
+.subscribe {
+  font-size: var(--fs-500);
+}
+
+input {
+  border-radius: 1rem;
 }
 
 li img {
