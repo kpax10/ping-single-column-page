@@ -91,11 +91,13 @@ body {
 }
 
 header img {
-  width: 5.2rem;
+  width: 4.2rem;
 }
 
 h1 {
   font-size: var(--fs-900);
+  font-size: clamp(var(--fs-600), 6vw, var(--fs-900));
+
   color: var(--clr-grey);
   font-weight: var(--fw-regular);
 }
@@ -107,10 +109,35 @@ h1 span {
 
 .subscribe {
   font-size: var(--fs-500);
+  font-size: clamp(var(--fs-200), 2.5vw, var(--fs-500));
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input,
+button {
+  border-radius: 6rem;
+  border-style: solid;
+  padding: 0.7rem 2rem;
 }
 
 input {
-  border-radius: 1rem;
+  border-color: var(--clr-light-blue);
+  font-size: var(--fs-200);
+}
+
+input::placeholder {
+  color: var(--clr-light-blue);
+}
+
+button {
+  background-color: var(--clr-blue);
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 li img {
